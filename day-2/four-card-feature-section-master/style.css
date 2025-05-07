@@ -4,7 +4,11 @@
     box-sizing: border-box;
 }
 header{
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
     margin: 1.4rem auto;
 }
 header > h1:first-child{
@@ -16,9 +20,11 @@ header>h1:last-child{
 }
 header>p{
     color: hsl(212, 6%, 44%);
+    text-align: center;
 }
 
 main {
+    font-size: 15px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
